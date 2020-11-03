@@ -1,0 +1,69 @@
+body {
+  background-color: lightgreen;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 1600px) {
+  body {
+    background-color: lightblue;
+    text-align: center;
+  }
+}
+
+.top-left {position: absolute;
+top: 10;
+  left: 105px;
+font-weight: bolder;}
+
+#header-img {position: absolute;
+top: 0;
+left: 105px;
+  font-size: 1.125rem;
+width: 10%;
+  height: auto;}
+
+#nav-bar {
+    overflow: hidden;
+  background-color: #3233;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#nav-bar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 36px 25px;
+  text-decoration: none;
+  font-size: 1.0625rem;
+}
+ 
+#nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+h1 {padding: 170px;
+padding-bottom: 10px;}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: 25px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 1.25rem;
+}
+
+#content {font-size: 1.25rem;
+margin: 35px;
+padding-top: 15px;}
